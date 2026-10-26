@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Screenshots and Links</title>
+</head>
+<body>
+
+    <h2>My Screenshots</h2>
+    <div>
+        <p>Screenshot 1:</p>
+        <img src="file:///C:/Users/adam wright/OneDrive/Pictures/Screenshots/Screenshot 2026-10-25 135354.png" alt="Screenshot 135354" style="max-width: 100%; height: auto;">
+    </div>
+    
+    <div>
+        <p>Screenshot 2:</p>
+        <img src="file:///C:/Users/adam wright/OneDrive/Pictures/Screenshots/Screenshot 2026-10-25 000552.png" alt="Screenshot 000552" style="max-width: 100%; height: auto;">
+    </div>
+
+    <h2>CSS Learning Resource Links</h2>
+    <ul>
+        <li>
+            <a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer">Flexbox Froggy Game</a>
+        </li>
+        <li>
+            <a href="https://cssgridgarden.com/" target="_blank" rel="noopener noreferrer">CSS Grid Garden Game</a>
+        </li>
+    </ul>
+
+</body>
+
+</html>
