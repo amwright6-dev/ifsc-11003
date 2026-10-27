@@ -14,6 +14,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#html-basics">HTML Basics</a></li>
                 <li><a href="#accessibility">Accessibility</a></li>
+                <li><a href="#student-work">My Work</a></li>
                 <li><a href="#resources">Resources</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -21,12 +22,43 @@
     </header>
     
     <main>
+        <!-- Added Student Portfolio / Assignment Section Here -->
+        <section id="student-work" style="background-color: #f9f9f9; padding: 20px; margin-bottom: 30px; border-left: 5px solid #0056b3;">
+            <h1>Adam Wright was here!</h1>
+            <nav aria-label="Assignment Navigation">
+                <ul>
+                    <li><a href="prototype/index.html">Prototype HTML Assignment</a></li>
+                </ul>
+            </nav>
+
+            <h2>My Screenshots</h2>
+            <div>
+                <p>Screenshot 1:</p>
+                <img src="file:///C:/Users/adam wright/OneDrive/Pictures/Screenshots/Screenshot 2026-10-25 135354.png" alt="Screenshot 135354" style="max-width: 100%; height: auto;">
+            </div>
+            
+            <div>
+                <p>Screenshot 2:</p>
+                <img src="file:///C:/Users/adam wright/OneDrive/Pictures/Screenshots/Screenshot 2026-10-25 000552.png" alt="Screenshot 000552" style="max-width: 100%; height: auto;">
+            </div>
+
+            <h2>CSS Learning Resource Links</h2>
+            <ul>
+                <li>
+                    <a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer">Flexbox Froggy Game</a>
+                </li>
+                <li>
+                    <a href="https://cssgridgarden.com/" target="_blank" rel="noopener noreferrer">CSS Grid Garden Game</a>
+                </li>
+            </ul>
+        </section>
+
         <article>
             <h1>Understanding Semantic HTML</h1>
             <p>The web is more than a collection of visually formatted documents. HTML provides meaning and structure to content so that browsers, search engines, assistive technologies, and people can better understand how information is organized.</p>
             <p><abbr title="HyperText Markup Language">HTML</abbr> stands for HyperText Markup Language. It describes the structure and meaning of content rather than how that content should look. <abbr title="Cascading Style Sheets">CSS</abbr> is generally responsible for presentation, while JavaScript can add behavior and interactivity.</p>
 
-            <section>
+            <section id="html-basics">
                 <h2>Why Semantics Matter</h2>
                 <p>Semantic HTML uses elements according to the meaning of the content they contain. Choosing an element because of what it represents, rather than because of its default appearance, produces documents that are easier to understand and maintain.</p>
                 <p>Semantic structure is especially important for accessibility. Screen readers and other assistive technologies can use the structure of a document to help users navigate between major regions, headings, lists, and other types of content.</p>
@@ -34,7 +66,7 @@
                 <p>The Web Accessibility Initiative, commonly abbreviated <abbr title="Web Accessibility Initiative">WAI</abbr>, develops standards and supporting materials that help make the web more accessible to people with disabilities.</p>
             </section>
 
-            <section>
+            <section id="accessibility">
                 <h3>Common Principles for Well-Structured Pages</h3>
                 <ul>
                     <li>Use headings to create a logical outline of the document.</li>
@@ -103,7 +135,7 @@
                 </figure>
             </section>
 
-            <aside>
+            <aside id="resources">
                 <h3>Recommended Resources</h3>
                 <ul>
                     <li><a href="https://mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a></li>
@@ -115,12 +147,5 @@
         </article>
     </main>
     
-    <footer>
+    <footer id="contact">
         <h3>About This Site</h3>
-        <p>Web Foundations is a learning resource for students studying modern front-end development. The material emphasizes standards-based development, semantic HTML, accessibility, and the use of the native web platform.</p>
-        <p><small>Content prepared for Web Foundations</small></p>
-    </footer>
-
-</body>    
-
-</html>
